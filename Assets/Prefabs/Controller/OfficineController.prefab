@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3247927952416009089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5292566676174426185}
+  - component: {fileID: 2933546599879770323}
+  - component: {fileID: 5773036500134030417}
+  - component: {fileID: 3574735265000646960}
+  m_Layer: 0
+  m_Name: OfficineController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5292566676174426185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247927952416009089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2933546599879770323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247927952416009089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccbdbe56f4af1104a8aa9cfae5989f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5773036500134030417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247927952416009089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26c13e7a92ab7f40bdef7b37239632a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worker: {fileID: 2238772207578776572, guid: 09c771fb76d6508478e1f529a8c21d79, type: 3}
+  workingTable: {fileID: 2547446505859182497, guid: aa0cca30dd200ae4ab73856b417ac166, type: 3}
+  foodTable: {fileID: 4129260526528805400, guid: c24956610d9e32c4da6e6a08a4b234a8, type: 3}
+  vendingMachine: {fileID: 6433983409576904069, guid: 4a18c29af7300e546a48b957a38098b7, type: 3}
+--- !u!114 &3574735265000646960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247927952416009089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc7307e9c334ce419d738f524c80320, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
